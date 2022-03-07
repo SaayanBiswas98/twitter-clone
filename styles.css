@@ -1,0 +1,200 @@
+.Container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: white;
+}
+.material_icons:hover{
+    background-color:lightseagreen;
+    animation: popout 1s ease;
+}
+.Sidebar{
+    width: 27%;
+    max-width: 200px;
+    min-width: 100px;
+
+    margin: 4px;
+    display: flex;
+    float: left;
+    height: 100vh;
+    flex-direction: column;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+.Tweetbox{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    height: 44px;
+}
+.Home{
+    height: 200px;
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+}
+.tweetbox img{
+    width: 34px;
+    border-radius: 50%;
+    height: 29px;
+}
+.text{
+    width: 30px;
+    border-radius: 99px;
+}
+.tweet{
+    background-color:rgb(29 161 242);
+    border-radius: 99px;
+    width: 90px;
+    color:white;
+    height: 45px;
+}
+.Tweet1{
+    background-color: aqua;
+    border-radius: 99px;
+}
+.Avatar{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+}
+.Post{
+    margin-top: 78px;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+}
+.Tweet{
+    background-color: lightseagreen;
+}
+.Avatar{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding-right :60px;
+}
+.Avatar h4{
+    font-size: xx-small;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Image{
+    display: flex;
+    flex-direction: row;
+}
+
+.Avatar img{
+    width: 39px;
+    border-radius: 50%;
+    height: 56px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.home_icons{
+    display: flex;
+    flex-direction: row;
+}
+.Image input{
+    border-radius: 99px;
+}
+.material_icons{
+    background-color: aqua;
+    
+}
+.image{
+    display: flex;
+    flex-direction: column;
+}
+.image__icons{
+    display: flex;
+    flex-direction: row;
+
+}
+.widget{
+    height: 90px;
+    float: right;
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header img{
+    width: 89px;
+}
+.widget_box{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 99px;
+}
+.header img{
+    width: 34px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.material_icons{
+    color:rgb(29 161 242);
+}
+.header input{
+    background-color: rgb(225 232 237);
+    width: 300px;
+    height: 56px;
+    border-radius: 99px;
+
+}
+.Post34{
+    width: 419px;
+    padding-top: 10px;
+    height: 78px;
+}
+.Post34 img{
+    border-radius: 50%;
+    width: 67px;
+    height: 56px;
+}
+
+.search_bar{
+    border:1px solid grey;
+    width: 300px;
+    height: 56px;
+    border-radius: 99px;
+}
+.Title{
+    border-radius: 99px;
+    width: 400px;
+    height: 78px;
+}
+.Tweetcontainer{
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    width: 420px;
+    height: 79px;
+}
+.Tweetcontainer img{
+    width: 70px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
